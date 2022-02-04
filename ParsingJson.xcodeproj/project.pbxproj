@@ -13,6 +13,8 @@
 		674F613327AD62E00000FB8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 674F613127AD62E00000FB8D /* Main.storyboard */; };
 		674F613527AD62E10000FB8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 674F613427AD62E10000FB8D /* Assets.xcassets */; };
 		674F613827AD62E10000FB8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 674F613627AD62E10000FB8D /* LaunchScreen.storyboard */; };
+		674F614027AD64A80000FB8D /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = 674F613F27AD64A70000FB8D /* data.json */; };
+		674F614227AD6E130000FB8D /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674F614127AD6E130000FB8D /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		674F613427AD62E10000FB8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		674F613727AD62E10000FB8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		674F613927AD62E10000FB8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		674F613F27AD64A70000FB8D /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = SOURCE_ROOT; };
+		674F614127AD6E130000FB8D /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,7 +60,9 @@
 		674F612A27AD62E00000FB8D /* ParsingJson */ = {
 			isa = PBXGroup;
 			children = (
+				674F613F27AD64A70000FB8D /* data.json */,
 				674F612B27AD62E00000FB8D /* AppDelegate.swift */,
+				674F614127AD6E130000FB8D /* Models.swift */,
 				674F612D27AD62E00000FB8D /* SceneDelegate.swift */,
 				674F612F27AD62E00000FB8D /* ViewController.swift */,
 				674F613127AD62E00000FB8D /* Main.storyboard */,
@@ -128,6 +134,7 @@
 				674F613827AD62E10000FB8D /* LaunchScreen.storyboard in Resources */,
 				674F613527AD62E10000FB8D /* Assets.xcassets in Resources */,
 				674F613327AD62E00000FB8D /* Main.storyboard in Resources */,
+				674F614027AD64A80000FB8D /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +148,7 @@
 				674F613027AD62E00000FB8D /* ViewController.swift in Sources */,
 				674F612C27AD62E00000FB8D /* AppDelegate.swift in Sources */,
 				674F612E27AD62E00000FB8D /* SceneDelegate.swift in Sources */,
+				674F614227AD6E130000FB8D /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
